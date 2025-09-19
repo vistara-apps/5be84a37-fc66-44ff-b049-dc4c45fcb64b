@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(210 20% 8%);
+  --surface: hsl(210 20% 12%);
+  --accent: hsl(160 100% 40%);
+  --primary: hsl(210 70% 50%);
+  --text-primary: hsl(210 10% 95%);
+  --text-secondary: hsl(210 10% 70%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-background font-semibold py-3 px-6 rounded-lg transition-all duration-200 hover:bg-accent/90 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-surface text-text-primary border border-text-secondary/20 font-semibold py-3 px-6 rounded-lg transition-all duration-200 hover:bg-surface/80 active:scale-95;
+  }
+  
+  .card {
+    @apply bg-surface rounded-lg p-4 shadow-card border border-text-secondary/10;
+  }
+  
+  .input-field {
+    @apply bg-background border border-text-secondary/20 rounded-md px-3 py-2 text-text-primary placeholder-text-secondary focus:outline-none focus:border-accent transition-colors duration-200;
+  }
+}
