@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "BaseSwap Swapper",
+    "subtitle": "Built with Zara",
+    "description": "BaseSwap Swapper is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app",
+    "splashImageUrl": "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app/image.png",
+    "tagline": "BaseSwap Swapper",
+    "screenshotUrls": [
+      "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app/screenshot.png",
+      "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://5be84a37fc6644ffb049dc4c45fcb64b-pz2s.vercel.app/api/webhook"
+  }
+}
